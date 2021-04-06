@@ -1,0 +1,42 @@
+html {
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+width: 50%;
+max-width: 800px;
+min-width: 480px;
+margin: 0 auto;
+}
+
+h1{
+    color: blueviolet;
+    margin-top: 50px;
+}
+
+.firstValue {
+    margin-left: 18px;
+}
+
+.operationButton, .firstValue, .secondValue  {
+  width: 45px;
+  height: 45px;
+}
+
+input {
+  margin: 10px;
+}
+
+button {
+    margin-right: 7px;
+}
+.resultOperation {
+    display: block;
+    margin-top: 25px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div id="calculatorContent">
+        <h1>Calculator</h1>
+
+        <p>Enter the values ​​and then choose the option you want to run.</p>
+
+        <div class="form">
+        <!-- label: representa una etiqueta para un elemento en una interfaz de usuario -->
+        <div class="values">
+            <label for="firstValue">Enter the 1st Value:</label>
+            <input type="number" class="firstValue">
+        </div>
+        <div class="values">
+            <label for="secondValue">Enter the 2nd Value:</label>
+            <input type="number" class="secondValue">
+        </div>
+        <button type="button" name="substract" class="operationSubstract operationButton">-</button>
+        <button type="button" name="sum" class="operationSum operationButton">+</button>
+        <button type="button" name="multiply" class="operationMultiply operationButton">*</button>
+        <button type="button" name="divide" class="operationDivide operationButton">/</button>
+        </div>
+
+        <span class="resultOperation">
+          
+        </span>
+    </div>
+
+  </body>
+</html>
